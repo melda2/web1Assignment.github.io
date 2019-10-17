@@ -1,0 +1,32 @@
+[
+    {
+        "image": "Assests/img/Manchester_United_Home_Authentic_Jersey_Red_CG0037_01_laydown.jpg", 
+        "brand": "Adidas", 
+        "teamName": "Manchester United Shirt",
+        "price": "$159.99"
+    },
+    {
+        "image":"Assests/img/20190719-Premier-League-Kit-07_b.jpg",
+        "brand": "Umbro", 
+        "teamName": "Everton FC Shirt",
+        "price": "$159.99"
+    },
+    {
+        "image":"Assests/img/919iGF08yHL._UX385_.jpg",
+        "brand": "New Balance", 
+        "teamName": "Liverool FC Shirt",
+        "price": "$159.99"
+    },
+    {
+        "image":"Assests/img/311047.jpg",
+        "brand": "Puma", 
+        "teamName": "Manchester City Shirt",
+        "price": "$159.99"
+    },
+    {
+        "image":"Assests/img/630F8EE52AA51F23806692E6E3DFEBECD9DCA8BA.jpg",
+        "brand": "Nike", 
+        "teamName": "Tottenham Hotspur FC Shirt",
+        "price": "$159.99"
+    }
+]
