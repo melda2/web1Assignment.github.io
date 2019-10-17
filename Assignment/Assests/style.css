@@ -10,7 +10,7 @@ body
 
 header 
 {
-    background-color: rgb(41, 64, 168);
+    background-color: rgb(44, 85, 146);
     padding: 10px; 
 }
 
@@ -22,7 +22,7 @@ img
 nav
 {
     display: flex;
-    background-color: rgb(111, 112, 96);
+    background-color: rgb(207, 211, 218);
     padding: 6px;
     text-align: center;   
 }
@@ -78,9 +78,12 @@ aside
 {
     flex: 30%;
     padding: 20px;
-    background-color: aliceblue;
+    background-color: rgb(44, 85, 146);
 }
 
+legend{
+    font-size: 16px;
+}
 section
 {
     flex: 70%;
@@ -94,8 +97,22 @@ fieldset
     background-color:  rgb(242, 243, 233);
 }
 
-#inputName, #inputPh, #inputEmail{
+#inputName, #inputPh, #inputEmail, #inputComment{
     border-radius: 15px;
+}
+
+#inputComment{
+    height: 100px;
+}
+
+.InputMenus{
+    text-align: center
+
+}
+
+#ContactUs{
+    text-align: center;
+    background-color:  rgb(44, 85, 146)
 }
 
 
@@ -121,10 +138,6 @@ fieldset
     height: 50;
 }
 
-form
-{
-    background-color: rgb(44, 85, 146);
-}
 
 article 
 {
@@ -134,7 +147,7 @@ article
 
 footer 
 {
-    background-color: rgb(41, 64, 168);
+    background-color: rgb(207, 211, 218);
     height: 20px;
 }
 @media screen and (max-width: 700px)
