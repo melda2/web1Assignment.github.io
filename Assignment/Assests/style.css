@@ -94,6 +94,9 @@ fieldset
     background-color:  rgb(242, 243, 233);
 }
 
+#inputName, #inputPh, #inputEmail{
+    border-radius: 15px;
+}
 
 
 .placeholder
