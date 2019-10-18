@@ -2,7 +2,7 @@ const items = document.getElementById('items2');
 
 const xhr = new XMLHttpRequest();
 
-xhr.open('GET', '/Assests/Shirts.json', true);
+xhr.open('GET', '/Assests/Shirts.json', true); 
 xhr.onload = () => {
     if (xhr.status == 200){
         const array = JSON.parse(xhr.responseText);
@@ -12,7 +12,7 @@ xhr.onload = () => {
 
             items.innerHTML = items.innerHTML + `<div class = "outer">
 
-            <img src="${p.image}" height = "300"></img>
+            <img src="${p.image}" height = "300"></img> 
             <br>
             ${p.brand}
             <br>
